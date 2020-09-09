@@ -1,0 +1,19 @@
+body {
+    font-family: "Roboto";
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 20%;
+    max-width: 500px;
+    z-index: 100;
+    overflow-y: auto;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    position: absolute;
+    left: 22%;
+}
